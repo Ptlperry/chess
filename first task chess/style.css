@@ -1,0 +1,32 @@
+.board {
+        border: 1px solid;
+        height: 480px;
+        width: 480px;
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 0 8px 8px rgb(0 0 0 / 65%);
+    
+    }
+    
+    .gray {
+        background: #b58863;
+    }
+    
+    .ele{
+        background: #f0d9b5;
+    }
+    .cell {
+        height: 60px;
+        width: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 45px;
+    }
+    
+    body{
+margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
